@@ -1,0 +1,55 @@
+/* add your CSS here */
+
+body {
+  font-family: "Times New Roman";
+  text-align: center;
+  background-color: #a6a6a6
+  
+}
+div {  
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+  border-collapse: separate;
+  padding: 10px 20px 10px 20px;
+  }
+ div.second {  
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+  } 
+
+
+img.wolf
+{
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px white;
+  margin-bottom: 20px;
+}
+
+h3 {
+  padding: 0px 0px 5px 0px;
+
+}
+
+p {
+  padding: 0 10px;
+}
+p.fact{
+  padding: 0 10px;
+  font-style: italic;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0 10px;
+}
+
+
+span {
+  font-style: normal;
+  font-weight: bold;
+}
