@@ -1,27 +1,47 @@
-/* add your CSS here */
 
 body {
   font-family: "Times New Roman";
+  width: 500px;
   text-align: center;
-  background-color: #a6a6a6
-  
+  margin:0 auto; 
 }
-div {  
-  border-style: solid;
-  border-color: white;
+
+h3 {
+  padding: 0 0 5px;
+}
+
+p {
+  padding: 0 10px;
+}
+
+.animal-card{
+  border: solid white;
   border-radius: 15px;
-  border-collapse: separate;
+    border-collapse: separate;
+  padding: 10px 20px 20px 20px;
+  background-color: #a6a6a6;
+  background-clip: padding-box;
+}
+
+.animal-info{
+  border: solid white;
+  border-radius: 15px;
+    border-collapse: separate;
   padding: 10px 20px 10px 20px;
-  }
- div.second {  
-  border-style: solid;
-  border-color: white;
-  border-radius: 15px;
-  } 
+  background-color: #a6a6a6;
+}
 
+.facts-list {
+  list-style: none;
+  padding: 0 10px;
+}
 
-img.wolf
-{
+.label {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.wolf {
   display: block;
   margin: auto;
   border-radius: 10px;
@@ -29,27 +49,7 @@ img.wolf
   margin-bottom: 20px;
 }
 
-h3 {
-  padding: 0px 0px 5px 0px;
-
-}
-
-p {
-  padding: 0 10px;
-}
-p.fact{
+.fact{
   padding: 0 10px;
   font-style: italic;
-}
-
-
-ul {
-  list-style: none;
-  padding: 0 10px;
-}
-
-
-span {
-  font-style: normal;
-  font-weight: bold;
 }
